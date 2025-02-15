@@ -157,6 +157,7 @@ HCURSOR CArduinoSerialComDlg::OnQueryDragIcon()
 
 void CArduinoSerialComDlg::connectSerialCommunication()
 {
+	//Comport Commit Added
 	m_sComPort = "Com3";
 	m_hCom = CreateFile(m_sComPort,
 		GENERIC_READ | GENERIC_WRITE,
