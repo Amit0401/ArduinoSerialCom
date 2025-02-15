@@ -178,6 +178,7 @@ void CArduinoSerialComDlg::connectSerialCommunication()
 void CArduinoSerialComDlg::OnBnClickedButtonSendData()
 {
 	// TODO: Add your control notification handler code here
+
 	m_bToogle = !m_bToogle;
 	DWORD byteSent;
 	CString csData;
